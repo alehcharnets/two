@@ -1,0 +1,19 @@
+{% extends 'MainTemplate.html' %}
+{% load staticfiles %}
+
+{% block Search %}
+
+<div class="container-fluid text-center">
+
+    <h3 id="video_serch">Video found: {{ found.count }} </h3>
+
+    {% for video in found %}
+    <h4 id="video_name">
+        <a href="{{ video.get_absolute_url }}" style="text-decoration: none">{{ video.Video_name }}
+        </a>
+    </h4>
+    {% endfor %}
+
+</div>
+
+{% endblock %}

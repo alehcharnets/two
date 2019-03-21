@@ -1,0 +1,62 @@
+{% extends 'MainTemplate.html' %}
+{% load staticfiles %}
+
+{% block Reg %}
+<br><br><br>
+
+<form action="{% url 'registration_url' %}" method="post" id="regform2">
+    {% csrf_token %}
+
+    <p>
+<!-- <label for="id_username">Username:
+</label> -->
+<input type="text" name="username" maxlength="150" autofocus="" required="" id="id_username" placeholder="Username">
+<span class="helptext">
+</span>
+<ul>
+    <li>Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only.
+    </li>
+</ul>
+</p>
+<p>
+<!-- <label for="id_password1">Password:
+</label> -->
+<input type="password" name="password1" required="" id="id_password1" placeholder="Password">
+<span class="helptext">
+</span>
+</p>
+<ul>
+    <li>Your password can't be too similar to your other personal information.
+    </li>
+    <li>Your password must contain at least 8 characters.
+    </li>
+    <li>Your password can't be a commonly used password.
+    </li>
+    <li>Your password can't be entirely numeric.
+    </li>
+</ul>
+<p>
+<!-- <label for="id_password2">Password confirmation:
+</label> -->
+<input type="password" name="password2" required="" id="id_password2" placeholder="Password confirmation">
+<span class="helptext">
+</span>
+<ul>
+    <li>Enter the same password as before, for verification.
+    </li>
+</ul>
+</p>
+
+
+<p>
+    <input class="btn btn-outline-dark" type="submit" value="Registration">
+</p>
+{% if errorlist %}
+<p>
+    <label class="error">{{ errorlist }}</label>
+</p>
+{% endif %}
+
+</form>
+
+{% endblock %}

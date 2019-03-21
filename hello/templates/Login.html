@@ -1,0 +1,24 @@
+{% extends 'MainTemplate.html' %}
+{% load staticfiles %}
+
+{% block Log %}
+
+<form action="{% url 'login_url' %}" method="post" id="logform">
+    {% csrf_token %}
+    <p>
+        <input type="text" name="username" id="username" placeholder="User name" required="">
+    </p>
+    <p>
+        <input type="password" name="password" id="password" placeholder="Password" required="">
+    </p>
+
+    <input class="btn btn-outline-dark" type="submit" value="Enter">
+
+    {% if login_error %}
+    <p>
+        <label class="error">{{ login_error }}</label>
+    </p>
+    {% endif %}
+</form>
+
+{% endblock %}

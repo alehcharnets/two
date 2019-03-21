@@ -1,0 +1,74 @@
+{% extends 'MainTemplate.html' %}
+{% load staticfiles %}
+{% block OneVideo %}
+
+
+<div class="container-fluid text-center">
+
+    <iframe width="800" height="500" src={{ video.Video_url }} frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+
+<div style="padding: 20px">
+    <p class="fx">
+        <a href="#" id="like" name="{{ video.id }}">
+            <span class="fas fa-heart">
+            </span>
+        </a>
+        <span id="count_likes">{{ video.Video_likes }}</span>
+
+        <a href="#" id="dislike" name="{{ video.id }}">
+            <span class="fas fa-thumbs-down">
+            </span>
+        </a>
+        <span id="count_dislikes">{{ video.Video_dislikes }}</span>
+    </p>
+</div>
+
+<div style="padding: 30px">
+    <p style="font-size: xx-large; font-weight: bold;">{{ video.Video_name }}</p>
+    <p style="font-size: large">
+        <a style="font-weight: bold">Description:   </a> {{ video.Video_description }}
+    </p>
+</div>
+
+<div class="container text-center">
+    <h6 class="fx"><font size="5" color="#666633" face="PLAYBILL"> Комментарии ( {{ Comment|length }} ) : </font></h6>
+<br>
+        {% for com in Comment %}
+    <div class="container text-center" id="comment_text">
+        <h5>{{ com.Comment_text }}</h5>
+        <a style="font-weight: bold">Date:   </a><a>{{ com.Comment_data }}</a>
+        <a style="font-weight: bold">User:   </a><a>{{ com.Comment_User }}</a>
+    </div>
+        {% endfor %}
+</div>
+</div>
+
+{% if not user.is_authenticated %}
+<div class="block1">
+    <a>To leave a comment
+        <a href="{% url 'registration_url' %}">register
+        </a> or
+        <a href="{% url 'login_url' %}">login
+        </a>
+    </a>
+</div>
+{% endif %}
+
+{% if user.is_authenticated %}
+<form action="/video/addcomment/{{ video.id }}/" method="post">
+    {% csrf_token %}
+    <h5>
+        <label for="id_Comment_text">New comment:</label>
+    </h5>
+    <p>
+        <textarea name="Comment_text" cols="60" rows="10" id="id_Comment_text" required></textarea>
+    </p>
+    <p>
+        <input class="btn btn-outline-dark" type="submit" value="Add comment">
+    </p>
+</form>
+{% endif %}
+
+{% endblock %}

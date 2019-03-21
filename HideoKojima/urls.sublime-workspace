@@ -1,0 +1,432 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"re",
+				"reverse\tfunction"
+			],
+			[
+				"btn-c",
+				"btn-secondary \tBootstrap 4 Class"
+			],
+			[
+				"str",
+				"srting_1"
+			],
+			[
+				"fr",
+				"from"
+			],
+			[
+				"su",
+				"sum\tfunction"
+			],
+			[
+				"s",
+				"summ"
+			],
+			[
+				"a",
+				"afg2"
+			],
+			[
+				"O",
+				"Outcome_o"
+			],
+			[
+				"I",
+				"Income_o"
+			],
+			[
+				"S",
+				"SELECT"
+			],
+			[
+				"M",
+				"MIN"
+			],
+			[
+				"ba",
+				"background-image\tproperty"
+			],
+			[
+				"b",
+				"button"
+			],
+			[
+				"onc",
+				"onclick\tAttr"
+			],
+			[
+				"in",
+				"indigo"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"h",
+				"href\t(MainTemplate.html)"
+			],
+			[
+				"m",
+				"margin\tproperty"
+			],
+			[
+				"d",
+				"dddddd\t(style111.css)"
+			],
+			[
+				"bac",
+				"b4:cards:background:color\tbg-color"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"te",
+				"text-center \tBootstrap 4 Class"
+			],
+			[
+				"img-r",
+				"img-rounded \tBootstrap 3 Class"
+			],
+			[
+				"btn-d",
+				"btn-default \tBootstrap 3 Class"
+			],
+			[
+				"bu",
+				"b4:button\tbutton"
+			],
+			[
+				"jus",
+				"justify-content-center \tBootstrap 4 Class"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"btn-da",
+				"btn-dark \tBootstrap 4 Class"
+			],
+			[
+				"jq",
+				"jQuery.ajax\tjQuery.ajax"
+			],
+			[
+				"bs3",
+				"bs3-xs-button:warning\tbs3-mini-button-warning"
+			],
+			[
+				"ne",
+				"new_name"
+			],
+			[
+				"p",
+				"print"
+			],
+			[
+				"ca",
+				"car"
+			],
+			[
+				"u",
+				"user"
+			],
+			[
+				"j",
+				"jon"
+			],
+			[
+				"pr",
+				"print\tfunction"
+			],
+			[
+				"r",
+				"random"
+			],
+			[
+				"get",
+				"get_description\t(report.py)"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"im",
+				"import\tkeyword"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"sni",
+				"Snippet: container-in"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"user",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"sett",
+				"Preferences: Settings"
+			],
+			[
+				"P",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: __magic__"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 355.0,
+		"history":
+		[
+			"sublime.log_commands(False)",
+			"sublime.log_command(False)",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"sublime.log_comannds(False)",
+			"sublime.log_comannds(True)",
+			"sublime.log_comannds(False)",
+			"sublime.log_comannds(True)",
+			"sublime.log_command(False)",
+			"sublime.log_commands(True)",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/python/HideoKojima/HideoKojima/hello/form.py",
+		"/D/python/dj_2/Hideo/Video/models.py",
+		"/D/python/dj_2/Hideo/Hideo/urls.py",
+		"/D/python/dj_2/Hideo/Video/urls_video.py",
+		"/D/python/dj_2/Hideo/Video/views.py",
+		"/D/python/dj_2/Hideo/Video/templates/mytemplate.html",
+		"/C/Users/fx/Desktop/ZealDocs.lnk",
+		"/D/python/dj_2/Hideo/Video/templates/start.html",
+		"/D/python/dj_2/Hideo/Video/templates/MainTemplate.html",
+		"/D/11.py",
+		"/D/Soft/Sublime Text Build 3176 x64/Data/Packages/Anaconda/README.md",
+		"/D/python/dj_2/Hideo/Hideo/settings.py",
+		"/D/python/dj_2/Hideo/temlates/MAIN.html",
+		"/D/python/dj_2/Hideo/Video/static/style111.css",
+		"/D/python/practic/1921.py",
+		"/D/python/HideoKojima/HideoKojima/hello/templates/AllVideos1.html",
+		"/D/python/HideoKojima/HideoKojima/hello/static/script.js",
+		"/D/python/practic/1919.py",
+		"/D/python/practic/1920.py",
+		"/D/Soft/Sublime Text Build 3176 x64/Data/Packages/User/SublimeREPL.sublime-settings",
+		"/D/Soft/Sublime Text Build 3176 x64/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/D/Soft/Sublime Text Build 3176 x64/Data/Packages/HighlightWhitespaces/README.md",
+		"/D/Soft/Sublime Text Build 3176 x64/Data/Packages/HighlightWhitespaces/highlight_whitespaces.sublime-settings",
+		"/D/Soft/Sublime Text Build 3176 x64/Data/Packages/User/highlight_whitespaces.sublime-settings",
+		"/D/Soft/Sublime Text Build 3176 x64/Data/Packages/User/Package Control.sublime-settings",
+		"/D/Soft/Sublime Text Build 3176 x64/Data/Packages/User/Anaconda.sublime-settings",
+		"/D/python/practic/zoo.py",
+		"/D/python/practic/1919",
+		"/D/python/practic/report.py",
+		"/D/python/practic/weaterman.py",
+		"/D/python/practic/1818.py",
+		"/D/python/practic/1819.py",
+		"/D/python/HideoKojima/HideoKojima/hello/templates/mytemplate.html",
+		"/D/python/HideoKojima/HideoKojima/hello/templates/MainTemplate.html",
+		"/D/python/dj_2/Hideo/Video/template/mytemplate.html",
+		"/D/python/lesson_12/venv/12.4.py",
+		"/D/python/18.py",
+		"/D/1312312.py",
+		"/D/python/3.py",
+		"/D/python/6.py",
+		"/D/python/4.py",
+		"/D/Python/2.py",
+		"/D/Python/1.py",
+		"/D/Soft/Sublime Text Build 3176 x64/Data/Packages/Default/Default (Windows).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 108.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 40.8
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 126.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "urls.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\python\\practic\\1818.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 182.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

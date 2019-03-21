@@ -1,0 +1,133 @@
+    body {
+        /* background: #a3a3c2; */
+        /* background: #9999ff; */
+        /* background: #99e666; */
+        /* background: #ffffff; */
+        /* background: black; */
+        /* background: white; */
+        /* background: #e0e0eb; */
+    }
+    #dislike{
+        padding-left: 100px;
+    }
+    .fab, .fas{
+        font-size: 110%;
+        padding-right: 10px;
+    }
+    .fas{
+        position: relative;
+        margin: 0 auto;
+    }
+    .fa-heart:before{
+        color: #cc99ff;
+        padding: 5px;
+    }
+    .fa-thumbs-down:before{
+        color: #800000;
+        padding: 5px;
+    }
+    .btn:hover{
+        background-color: #b3b3ff;
+    }
+    .fx{
+        text-align: center;
+        margin: 0 300px
+    }
+    .nav{
+        text-align: center;
+        margin: 0 300px
+    }
+    .navbar{
+        background: #c2d6d6;
+        opacity: 0.85;
+        width: 100%;
+        position: fixed;
+        padding: 1px;
+        /* display: block;  */
+    }
+    .navbar div {
+        margin: 5px 5px;
+        /* display: block; */
+    }
+    .form-inline{
+        top: 5px;
+        right: 5px;
+    }
+    .pagination{
+        padding: 15px;
+    }
+    iframe{
+        padding-top: 40px;
+    }
+    form{
+        text-align: center;
+        padding: 20px;
+    }
+    #logform{
+        margin: 100px auto;
+    }
+    .error{
+        color: red;
+        padding: 20px;
+        font-size: large;
+        -webkit-animation: blink5 2s linear infinite;
+        animation: blink5 2s linear infinite;
+    }
+    @-webkit-keyframes blink5 {
+        0% { color: rgb(128, 0, 0); }
+        50% { color: rgb(183, 65, 14); }
+        100% { color: rgb(128, 0, 0); }
+    }
+    @keyframes blink5 {
+        0% { color: rgb(128, 0, 0); }
+        50% { color: rgb(183, 65, 14); }
+        100% { color: rgb(128, 0, 0); }
+    }
+    .block1{
+        margin: 10px auto;
+        opacity: 0.5;
+        width: 200px;
+        height: auto;
+        text-align: center;
+        background: #ffb366;
+        border: 2px solid #003300;
+        border-radius: 5px;
+        font-size: medium;
+    }
+    #video_name{
+        font-size: xx-large;
+        font-weight: bold;
+        color: black;
+    }
+    #video_name:hover{
+        display: inline-block;
+        clear:both;
+        background-color: #e0e0eb;
+        border: 2px solid black;
+        border-radius: 10px;
+        color: #000066;
+    }
+    #comment_text{
+        display: inline-block;
+        clear:both;
+        padding: 20px;
+    }
+    #comment_text:hover{
+        background-color: #e0e0eb;
+    }
+    #video_serch{
+        padding: 50px;
+        margin:20px auto;
+    }
+
+
+
+
+
+    .padding{
+        margin:0 auto;
+        padding-bottom: 2em;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        /* float: left; */
+    }

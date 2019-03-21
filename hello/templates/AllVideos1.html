@@ -1,0 +1,61 @@
+{% extends 'MainTemplate.html' %}
+{% load staticfiles %}
+{% block AllVideos1 %}
+
+
+<div class="container-fluid text-center">
+    {% for cont in content.object_list %}
+
+    <iframe width="800" height="500" src={{ cont.0.Video_url }} frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+</iframe>
+
+<a href="/video/get/{{ cont.0.id }}/" style="text-decoration: none">
+    <p id="video_name">{{ cont.0.Video_name }} </p>
+</a>
+<p style="font-size: large">
+    <a style="font-weight: bold">Description:   </a>{{ cont.0.Video_description }}
+</p>
+
+<a style="font-weight: bold">Date:   </a>
+<a style="font-size: small">{{ cont.0.Video_data }}</a>
+<!-- <p class="fx">
+<img src="{% static 'like.png' %}" width="30" class="like" name="{{ cont.o.id }}" align="middle">
+<code style="color: black">Likes:</code> {{ cont.0.Video_likes }}</p>
+<hr> -->
+
+{% endfor %}
+</div>
+<hr>
+{% if other_pages %}
+<nav aria-label="..." class="nav justify-content-center">
+    <ul class="pagination">
+        <li class="page-item {% if not previous_url %} disabled {% endif %}">
+            <a class="page-link" href="{{ previous_url }}" tabindex="-1">Previous</a>
+        </li>
+
+        {% for n in content.paginator.page_range %}
+
+        {% if content.number == n %}
+
+        <li class="page-item active">
+            <a class="page-link" href="?page={{ n }}">{{ n }}<span class="sr-only">(current)</span></a>
+        </li>
+
+        {% elif n > content.number|add:-2 and n < content.number|add:2 %}
+
+        <li class="page-item"><a class="page-link" href="?page={{ n }}">{{ n }}</a></li>
+
+        {% endif %}
+
+        {% endfor %}
+
+        <li class="page-item {% if not next_url %} disabled {% endif %}">
+            <a class="page-link" href="{{ next_url }}" tabindex="-1">Next</a>
+        </li>
+    </ul>
+</nav>
+{% endif %}
+
+{% endblock %}
