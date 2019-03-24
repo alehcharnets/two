@@ -58,6 +58,7 @@
     }
     iframe{
         padding-top: 40px;
+        /* clear: both; */
     }
     form{
         text-align: center;
@@ -98,12 +99,13 @@
         font-size: xx-large;
         font-weight: bold;
         color: black;
+        /* clear: both; */
     }
     #video_name:hover{
         display: inline-block;
-        clear:both;
+        /* clear:both; */
         background-color: #e0e0eb;
-        border: 2px solid black;
+        /* border: 1px solid black; */
         border-radius: 10px;
         color: #000066;
     }
@@ -119,7 +121,9 @@
         padding: 50px;
         margin:20px auto;
     }
-
+    a{
+        text-decoration: none;
+    }
 
 
 

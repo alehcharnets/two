@@ -38,7 +38,7 @@ def ShowAll(request):
         content.append(oneVid)
 
     # пагинация страниц
-    pagination = Paginator(content, 1)
+    pagination = Paginator(content, 2)
     page_number = request.GET.get('page', 1)
     page = pagination.get_page(page_number)
 

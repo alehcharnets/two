@@ -10,10 +10,11 @@
     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen>
 </iframe>
-
-<a href="/video/get/{{ cont.0.id }}/" style="text-decoration: none">
+<div>
+<a href="/video/get/{{ cont.0.id }}/">
     <p id="video_name">{{ cont.0.Video_name }} </p>
 </a>
+</div>
 <p style="font-size: large">
     <a style="font-weight: bold">Description:   </a>{{ cont.0.Video_description }}
 </p>
@@ -24,10 +25,12 @@
 <img src="{% static 'like.png' %}" width="30" class="like" name="{{ cont.o.id }}" align="middle">
 <code style="color: black">Likes:</code> {{ cont.0.Video_likes }}</p>
 <hr> -->
-
+<br>
 {% endfor %}
 </div>
-<hr>
+<!-- <hr> -->
+<br>
+
 {% if other_pages %}
 <nav aria-label="..." class="nav justify-content-center">
     <ul class="pagination">
@@ -43,7 +46,7 @@
             <a class="page-link" href="?page={{ n }}">{{ n }}<span class="sr-only">(current)</span></a>
         </li>
 
-        {% elif n > content.number|add:-2 and n < content.number|add:2 %}
+        {% elif n > content.number|add:-3 and n < content.number|add:3 %}
 
         <li class="page-item"><a class="page-link" href="?page={{ n }}">{{ n }}</a></li>
 
